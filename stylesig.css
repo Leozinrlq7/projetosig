@@ -1,5 +1,5 @@
 
-  * {
+ * {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
@@ -12,8 +12,8 @@
     }
 
     header {
-      background-color:  #ffffff;
-      color: #097cf0;
+      background-color:  #000b5af7;
+      color: #ffffff;
       padding: 50px 20px;
       padding-top: 10px;
       display: flex;
@@ -24,6 +24,29 @@
       z-index: 10;
     }
 
+    .su{
+        display: flex;
+        height: 25px;
+        position: sticky;
+        z-index: 10;
+        margin-right: 8px;
+       gap: 40;
+
+    }
+
+    .mini-box i {
+    font-size: 100px;
+    color: #000e5e;
+    margin-bottom: 60px;
+    display: block;
+    justify-items: center;
+    align-items: center;
+    position: sticky;
+    
+
+   
+}
+        
 
     header h1 {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -31,17 +54,7 @@
       font-weight: 5px;
     }
 
-    nav a {
-      color: #997676;
-      margin-left: 20px;
-      text-decoration: none;
-      font-weight: 500;
-      transition: color 0.3s ease;
-    }
-
-    nav a:hover {
-      color: #d28500;
-    }
+   
 
     .bemvindo {
       background: linear-gradient(135deg,  #ffb23fe1, #000a5a );
