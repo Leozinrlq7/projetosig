@@ -12,9 +12,10 @@
     }
 
     header {
-      background-color:  #000a5a;
-      color: #fff;
-      padding: 20px 40px;
+      background-color:  #ffffff;
+      color: #097cf0;
+      padding: 50px 20px;
+      padding-top: 10px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -23,13 +24,15 @@
       z-index: 10;
     }
 
+
     header h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: 24px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 25px;
+      font-weight: 5px;
     }
 
     nav a {
-      color: #fff;
+      color: #997676;
       margin-left: 20px;
       text-decoration: none;
       font-weight: 500;
@@ -40,19 +43,19 @@
       color: #d28500;
     }
 
-    .hero {
-      background: linear-gradient(135deg,  #e38800e1, #000a5a );
+    .bemvindo {
+      background: linear-gradient(135deg,  #ffb23fe1, #000a5a );
       color: #ffffff;
       text-align: center;
       padding: 80px 20px;
     }
 
-    .hero h2 {
+    .bemvindo h2 {
       font-size: 38px;
       margin-bottom: 20px;
     }
 
-    .hero p {
+    .bemvindo p {
       font-size: 18px;
       max-width: 800px;
       margin: 0 auto;
@@ -68,33 +71,30 @@
     }
 
     .mini-box {
-      background-color: #ffffff;
-      border-radius: 12px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      padding: 20px;
-      text-align: center;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 7px 11px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.7s ease, box-shadow 0.3s ease;
+    min-height: 250px; /* <-- Adicionado para aumentar o comprimento */
     }
+
 
     .mini-box:hover {
       transform: translateY(-5px);
       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
     }
 
-    .mini-box h4, .mini-box h2 {
+    .mini-box h4 {
       font-size: 18px;
       margin-bottom: 10px;
-      color:  #000a5a ;
-    }
-
-    .mini-box p {
-      font-size: 14px;
-      color: #000000;
+      color:  #000f85b2 ;
     }
 
     .landing {
       grid-column: span 4;
-      background-color: #515151;
+      background-color: #c5c5c5;
       text-align: left;
     }
 
