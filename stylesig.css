@@ -1,4 +1,5 @@
-* {
+
+    * {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
@@ -7,7 +8,37 @@
 
     body {
       background: #f4f4f4;
-      padding: 40px;
+      padding: 80px 40px 40px; /* espaço para o header */
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px 40px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    header h1 {
+      font-size: 24px;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
     }
 
     .container {
@@ -39,4 +70,23 @@
     .mini-box p {
       font-size: 14px;
       color: #777;
+    }
+
+    /* Landing page customizada */
+    .landing {
+      background: linear-gradient(135deg, #6c5ce7, #a29bfe);
+      color: white;
+      text-align: left;
+      padding: 30px;
+      border-radius: 12px;
+    }
+
+    .landing h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .landing p {
+      font-size: 16px;
+      line-height: 1.5;
     }
