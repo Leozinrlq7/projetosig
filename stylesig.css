@@ -1,6 +1,6 @@
 
  
-  * {
+ * {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
@@ -31,7 +31,6 @@
       
       
     }
-
     
     .su{
         
@@ -43,8 +42,6 @@
         margin-right: 8px;
         gap: 40px;
         
-       
-
     }
 
     .mini-box i {
@@ -56,12 +53,9 @@
     justify-items: center;
     align-items: center;
     position: sticky;
-    
-
-   
+     
 }
         
-
     header h1 {
       color:  #ffffff;
       font-family: candara;
@@ -70,7 +64,6 @@
     }
 
    
-
     .bemvindo {
       background: linear-gradient(135deg, #004A8D, #f7941d);
       color: #ffffff;
@@ -79,7 +72,7 @@
     }
 
     .bemvindo h2 {
-      font-size: 38px;
+      font-size: 40px;
       margin-bottom: 20px;
     }
 
@@ -88,27 +81,37 @@
       max-width: 800px;
       margin: 0 auto;
     }
-
     .container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-      padding: 40px;
-      max-width: 1200px;
-      margin: 0 auto;
-    }
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas fixas */
+    gap: 20px;
+    padding: 40px;
+    max-width: 1300px; /* largura ideal para 4 colunas */
+    margin: 0 auto;
+  }
+    .icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+    object-fit: contain;
+    justify-items: center;
+     min-height: 20px; /* <-- Adicionado para aumentar o comprimento */
+    align-items: center;
+  }
 
     .mini-box {
   background-color: #ffffff;
-    border-radius: 12px;
-    box-shadow: 0 7px 11px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    text-align: center;
-    transition: transform 0.7s ease, box-shadow 0.3s ease;
-    min-height: 250px; /* <-- Adicionado para aumentar o comprimento */
-    
-    }
-
+  border-radius: 12px;
+  box-shadow: 0 7px 11px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.7s ease, box-shadow 0.3s ease;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
     .mini-box:hover {
       transform: translateY(-5px);
@@ -125,6 +128,10 @@
       grid-column: span 4;
        background-color: #ffffff;
       text-align: left;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+     
     }
 
     @media (max-width: 768px) {
@@ -138,3 +145,4 @@
         grid-column: span 1;
       }
     }
+    
