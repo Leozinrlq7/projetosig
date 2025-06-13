@@ -1,18 +1,24 @@
 
- * {
+ 
+  * {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
     }
 
     body {
-      font-family: 'Poppins', sans-serif;
-      background: #f4f4f4;
+      font-family: candara;
+      background: linear-gradient(135deg,  #004A8D ,  #f7941d );
       color: #333;
+      justify-content: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+       background-attachment: fixed
     }
 
     header {
-      background-color:  #000b5af7;
+        
+      background: linear-gradient(135deg,  #004A8D ,  #f7941d );
       color: #ffffff;
       padding: 50px 20px;
       padding-top: 10px;
@@ -20,24 +26,31 @@
       justify-content: space-between;
       align-items: center;
       position: sticky;
-      top: 0;
       z-index: 10;
+      list-style: none;
+      
+      
     }
 
+    
     .su{
+        
+        padding-top: 10;
         display: flex;
         height: 25px;
         position: sticky;
         z-index: 10;
         margin-right: 8px;
-       gap: 40;
+        gap: 40px;
+        
+       
 
     }
 
     .mini-box i {
     padding-top: 50px;
     font-size: 60px;
-    color: #000e5e;
+     color: #004A8D;
     margin-bottom: 20px;
     display: block;
     justify-items: center;
@@ -50,7 +63,8 @@
         
 
     header h1 {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color:  #ffffff;
+      font-family: candara;
       font-size: 25px;
       font-weight: 5px;
     }
@@ -58,7 +72,7 @@
    
 
     .bemvindo {
-      background: linear-gradient(135deg,  #ffb23fe1, #000a5a );
+      background: linear-gradient(135deg, #004A8D, #f7941d);
       color: #ffffff;
       text-align: center;
       padding: 80px 20px;
@@ -85,13 +99,14 @@
     }
 
     .mini-box {
-    background-color: #ffffff;
+  background-color: #ffffff;
     border-radius: 12px;
     box-shadow: 0 7px 11px rgba(0, 0, 0, 0.1);
     padding: 20px;
     text-align: center;
     transition: transform 0.7s ease, box-shadow 0.3s ease;
     min-height: 250px; /* <-- Adicionado para aumentar o comprimento */
+    
     }
 
 
@@ -103,12 +118,12 @@
     .mini-box h4 {
       font-size: 18px;
       margin-bottom: 10px;
-      color:  #000f85b2 ;
+      color: #004A8D;
     }
 
     .landing {
       grid-column: span 4;
-      background-color: #c5c5c5;
+       background-color: #ffffff;
       text-align: left;
     }
 
