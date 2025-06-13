@@ -1,5 +1,6 @@
 
  
+ 
  * {
       box-sizing: border-box;
       margin: 0;
@@ -20,12 +21,11 @@
         
       background: linear-gradient(135deg,  #004A8D ,  #f7941d );
       color: #ffffff;
-      padding: 50px 20px;
-      padding-top: 10px;
+      height: 80px;
       display: flex;
+      padding-left: 30px;
       justify-content: space-between;
       align-items: center;
-      position: sticky;
       z-index: 10;
       list-style: none;
       
@@ -34,16 +34,21 @@
     
     .su{
         
-        padding-top: 10;
+        
         display: flex;
         height: 25px;
-        position: sticky;
-        z-index: 10;
-        margin-right: 8px;
-        gap: 40px;
+        margin-right: 35px;
+        gap: 20px;
         
     }
-
+    .su1{
+        display: flex;
+        gap: 5px;
+        
+    }
+    .sup{
+        padding-top: 3px;
+    }
     .mini-box i {
     padding-top: 50px;
     font-size: 60px;
@@ -68,7 +73,8 @@
       background: linear-gradient(135deg, #004A8D, #f7941d);
       color: #ffffff;
       text-align: center;
-      padding: 80px 20px;
+      padding-top: 20px;
+      height: 150px;
     }
 
     .bemvindo h2 {
@@ -85,7 +91,8 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* 4 colunas fixas */
     gap: 20px;
-    padding: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
     max-width: 1300px; /* largura ideal para 4 colunas */
     margin: 0 auto;
   }
@@ -106,7 +113,7 @@
   padding: 10px;
   text-align: center;
   transition: transform 0.7s ease, box-shadow 0.3s ease;
-  min-height: 150px;
+  height: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -124,15 +131,6 @@
       color: #004A8D;
     }
 
-    .landing {
-      grid-column: span 4;
-       background-color: #ffffff;
-      text-align: left;
-      align-items: center;
-      justify-content: center;
-      display: flex;
-     
-    }
 
     @media (max-width: 768px) {
       .landing {
